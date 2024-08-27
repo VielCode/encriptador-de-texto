@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header class="header">
+        
+    </header>
+
+    <main class="presentacion">
+        <div class="imagen">
+            <img src="assets/logo.png" alt="Logo de alura">
+        </div>
+        <div class="margen">
+        <textarea id="texto1" rows="1" class="presentacion_texto_1">Ingrese su texto aqui</textarea>
+        <div class="Ubi">
+            <p class="Advertencia">
+                <img src="assets/bi_exclamation-circle-fill.png" alt="Icono de advertencia">
+                Solo letra minúsculas y sin acento
+            </p>
+            <div class="Botones">
+                 <button onclick="Encriptar();" class="Encriptar">Encriptar</button>
+                 <button onclick="Desencriptar();" class="Desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+        <div class="margen2">
+            
+        </div>
+        
+    </main>
     
+
 </body>
+<script src="app.js"></script>
 </html>
